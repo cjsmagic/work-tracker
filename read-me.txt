@@ -1,0 +1,30 @@
+name: worktracker
+mongodb ip: 172.29.0.0/16
+
+username: clarence
+password: Admn123@
+
+
+connect to mlab db
+------------------------
+
+mongo ds012345.mlab.com:56789/wortracker -u clarence -p Admin123@
+
+mongodb://user123:user123pass@ds221242.mlab.com:21242/worktracker
+
+
+employee document schema
+------------------------------
+{"name":"clarence","date":"14/08/2018","project":"Sedona","hours":8}
+
+
+
+
+[is used to a add a new remote]
+git remote add origin https://github.com/cjsmagic/work-tracker.git
+
+[is used to change the url of an existing remote repository]
+git remote set-url origin https://github.com/cjsmagic/work-tracker.git
+
+[push initial]
+git push -u origin master
